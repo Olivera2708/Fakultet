@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms - Registration</title>
+  </head>
+  <body>
+    <h1>Create an Account</h1>
+    <form class="" action="index.html" method="post">
+      Full Name: <br>
+      <input type="text" name="" value="" required pattern="((\p{L})+(\s(\p{L})+)+)$">
+      <br><br>
+      Email: <br>
+      <input type="email" name="" value="" required>
+      <br><br>
+      Password: <br>
+      <input type="password" name="" value="" required pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$">
+      <br><br>
+      Age: <br>
+      <select class="" name="">
+        <option value="">-- Select Age --</option>
+        <option value="">Under 18</option>
+        <option value="">18 to 30</option>
+        <option value="">31 to 45</option>
+        <option value="">46 to 60</option>
+        <option value="">61+</option>
+      </select>
+      <br><br>
+      Gender: <br>
+      <input type="radio" name="" value=""> Male
+      <input type="radio" name="" value=""> Female
+      <br><br>
+      Tell us a little about yourself:<br>
+      <textarea name="name" rows="5" cols="40"></textarea>
+      <br><br>
+      <input type="checkbox" name="" value="" required> I agree to the <a href="http://www.dumb.com/terms" target="_blank">Terms & Conditions</a>
+      <br><br>
+      <button type="Sign" name="button">Sign up</button>
 
+    </form>
+
+  </body>
+</html>
