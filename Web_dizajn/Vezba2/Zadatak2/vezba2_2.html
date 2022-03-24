@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Courts Reservation Page</h1>
 
+    <form class="" action="index.html" method="post">
+      <fieldset>
+        <legend>Client Data</legend>
+        <br>
+        Full Name: <input type="text" name="" value="" pattern="^((\p{L})+(\s(\p{L})+)+)$" required>
+        <br>
+        <br>
+        Email: <input type="email" name="" value="">
+        <br>
+        <br>
+        Are you a Member? <input type="radio" name="" value=""> Yes<input type="radio" name="" value="" checked> No
+        <br>
+        <br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Reservation Data</legend>
+        <br>
+        Court: <select class="" name="">
+          <option value="">Basketball</option>
+          <option value="">Tennis</option>
+          <option value="">Rugby</option>
+        </select>
+        <br>
+        <br>
+        Select a reservation date and time:
+        <br>
+        <input type="date" name="" value="" required>  <input type="time" name="" value="" required>
+        <br>
+        <br>
+        Num. of Players: <input type="number" name="" value="" min="1">
+        <br>
+        <br>
+        Note:
+        <br>
+        <textarea name="name" rows="4" cols="30"></textarea>
+        <br>
+        <br>
+      </fieldset>
+      <br>
+      <input type="checkbox" name="" value="" required> I agree to the club's reservation policy
+      <br>
+      <br>
+      <button type="submit" name="button">Submit</button>     <button type="" name="button">Reset</button>
+      </form>
+
+  </body>
+</html>
