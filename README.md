@@ -1,2 +1,2 @@
 # Fakultet
-Resenja programa za Fakultet tehnickih nauka u Novom Sadu, smer softversko inzenjerstvo i informacione tehnologije
+Rešenja programa sa vežbi za Fakultet tehničkih nauka u Novom Sadu, smer softversko inženjerstvo i informacione tehnologije
