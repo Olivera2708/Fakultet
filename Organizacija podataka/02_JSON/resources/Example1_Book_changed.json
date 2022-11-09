@@ -1,0 +1,11 @@
+{
+  "title" : "Changed book title",
+  "price" : 85,
+  "isbn" : "ISBN-0-13-713526-2",
+  "tags" : [ "Computer Science", "Databases" ],
+  "edition" : 3,
+  "author" : {
+    "First_Name" : "Jeffrey",
+    "Last_Name" : "Ullman"
+  }
+}
