@@ -1,0 +1,4 @@
+- !!zadatak4.Log {datum: !!timestamp '2001-11-23T20:01:42Z', greska: Warning, korisnik: ed,
+  opis: This is an error message for the log file, stak: null}
+- !!zadatak4.Log {datum: !!timestamp '2001-11-23T20:02:31Z', greska: Warning, korisnik: ed,
+  opis: A slightly different error message., stak: null}
